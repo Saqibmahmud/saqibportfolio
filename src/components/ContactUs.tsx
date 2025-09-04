@@ -48,6 +48,20 @@ export default function ContactUs() {
       </p>
       
       <div className="max-w-2xl mx-auto">
+        {status && (
+          <div
+            role="status"
+            aria-live="polite"
+            className={`mb-6 text-center px-4 py-3 rounded-md font-medium text-base sm:text-lg ${
+              status.includes("❌")
+                ? "bg-red-100 text-red-800 border border-red-200"
+                : "bg-emerald-100 text-emerald-800 border border-emerald-200"
+            }`}
+          >
+            {status}
+          </div>
+        )}
+
         <form
           onSubmit={handleSubmit}
           className="space-y-6"
@@ -88,16 +102,14 @@ export default function ContactUs() {
           <div>
             <button
               type="submit"
-              className="px-5 py-2 rounded-md bg-foreground text-background text-sm font-medium hover:opacity-90 transition-opacity w-full"
+              className="px-5 py-2 rounded-md bg-foreground text-background text-sm font-medium hover:opacity-90 hover:cursor-pointer transition-opacity w-full"
             >
               Send Message
             </button>
           </div>
         </form>
         
-        {status && (
-          <p className="mt-4 text-sm text-foreground/70">{status}</p>
-        )}
+        
         
         <div className="mt-8 pt-6 border-t border-foreground/10">
           <p className="text-sm text-foreground/70">
