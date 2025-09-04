@@ -67,7 +67,7 @@ export default function About() {
             <div>
               <h3 className="text-xl font-semibold mb-3">Development Skills</h3>
               <p className="text-foreground/70 leading-relaxed mb-4">
-                I have extensive experience in both <span className="font-medium text-foreground">Frontend and Backend Development</span>, 
+                I have extensive experience  in both <span className="font-medium text-foreground">Frontend and Backend Development</span>, 
                 with expertise in:
               </p>
               <div className="grid grid-cols-2 gap-2">
