@@ -1,18 +1,12 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Projects from "@/components/Projects";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function ContactPage() {
   return (
     <div className="font-sans" id="top">
       <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
+      <main className="pt-16">
         <ContactUs />
       </main>
       <Footer />
