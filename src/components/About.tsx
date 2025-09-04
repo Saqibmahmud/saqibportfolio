@@ -52,7 +52,7 @@ export default function About() {
                   <h4 className="font-medium text-foreground">BSc in Computer Science & Engineering</h4>
                   <p className="text-sm text-foreground/70">American International University-Bangladesh</p>
                 </div>
-                <span className="text-sm font-medium text-foreground/70">2021 - 2024</span>
+                <span className="text-sm font-medium text-foreground/70">2021 - 2025</span>
               </div>
               <div className="flex items-center gap-4 text-sm text-foreground/70">
                 <span>CGPA: <span className="font-medium text-foreground">3.94</span></span>
