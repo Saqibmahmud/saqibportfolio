@@ -101,7 +101,13 @@ export default function ContactUs() {
         
         <div className="mt-8 pt-6 border-t border-foreground/10">
           <p className="text-sm text-foreground/70">
-            Or reach me directly at{" "}
+            Call me at {" "}
+            <a className="underline hover:opacity-80" href="tel:+8801712644758">
+              +880 1712644758
+            </a>
+          </p>
+          <p className="text-sm text-foreground/70 mt-2">
+            Or reach me directly at {" "}
             <a className="underline hover:opacity-80" href="mailto:saqibalmahmud@gmail.com">
               saqibalmahmud@gmail.com
             </a>
