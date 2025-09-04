@@ -23,7 +23,7 @@ export default function About() {
           <div>
             <h3 className="text-xl font-semibold mb-3"> Experience</h3>
             <p className="text-foreground/70 leading-relaxed">
-               I'm currently gaining hands-on industry experience through my internship at 
+               I&apos;m currently gaining hands-on industry experience through my internship at 
               <span className="font-medium text-foreground"> Datasoft Systems Bangladesh Limited</span>, 
               one of the leading software companies in the country. My role focuses on coding, 
               maintaining applications, and fixing bugs, giving me real-world exposure to 
