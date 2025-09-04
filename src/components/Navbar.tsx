@@ -10,9 +10,9 @@ export default function Navbar() {
           Saqib Al Mahmud<span className="text-foreground/60">-Software Engineer</span>
         </Link>
         <ul className="flex items-center gap-6 text-sm">
-          <li><a href="/#about" className="hover:opacity-80">About</a></li>
+          <li><Link href="/#about" className="hover:opacity-80">About</Link></li>
           <li><Link href="/projects" className="hover:opacity-80">Projects</Link></li>
-          <li><a href="/#contact" className="hover:opacity-80">Contact</a></li>
+          <li><Link href="/#contact" className="hover:opacity-80">Contact</Link></li>
         </ul>
       </nav>
     </header>

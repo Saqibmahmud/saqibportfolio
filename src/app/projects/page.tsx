@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { projects } from "@/data/projects";
+import Link from "next/link";
 
 export default function ProjectsPage() {
   return (
@@ -74,7 +75,7 @@ export default function ProjectsPage() {
           
           {/* Back to Home Button */}
           <div className="mt-12 text-center">
-            <a
+            <Link
               href="/"
               className="inline-flex items-center gap-2 px-5 py-2 rounded-md border text-sm font-medium hover:bg-foreground/5 transition-colors"
             >
@@ -82,7 +83,7 @@ export default function ProjectsPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
               Back to Home
-            </a>
+            </Link>
           </div>
         </section>
       </main>

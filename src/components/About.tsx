@@ -14,11 +14,9 @@ export default function About() {
           <div>
             <h3 className="text-xl font-semibold mb-3">Who I Am</h3>
             <p className="text-foreground/70 leading-relaxed">
-            I’m <span className="font-medium text-foreground">Saqib Al Mahmud</span> — a curious, growth-driven individual who loves solving problems 
+            I&apos;m <span className="font-medium text-foreground">Saqib Al Mahmud</span> — a curious, growth-driven individual who loves solving problems 
             and building meaningful tech solutions. Easygoing yet focused, 
             I enjoy collaborating, learning, and constantly pushing myself to explore new ideas.
-            
-            
             </p>
           </div>
 
@@ -36,8 +34,8 @@ export default function About() {
           <div>
             <h3 className="text-xl font-semibold mb-3">Beyond Coding</h3>
             <p className="text-foreground/70 leading-relaxed">
-              When I'm not coding, you'll find me exploring new tech trends, refining my projects, 
-              or brainstorming research ideas or simply wandering the world. I'm passionate about continuous learning and 
+              When I&apos;m not coding, you&apos;ll find me exploring new tech trends, refining my projects, 
+              or brainstorming research ideas or simply wandering the world. I&apos;m passionate about continuous learning and 
               staying up-to-date with the latest developments in technology.
             </p>
           </div>
